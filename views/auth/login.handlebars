@@ -1,67 +1,61 @@
-<div class="login-box">
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/auth.css">
+</head>
 
-Login
+<body>
+    <div class="container-login">
+        <div class="login-box">
 
-</h2>
+            <h2>
 
-<form
+                Login
 
-action="/auth/login"
+            </h2>
 
-method="POST"
+            <form action="/auth/login" method="POST">
 
->
+                <label>
 
-<label>
+                    Usuário
 
-Usuário
+                </label>
 
-</label>
+                <input type="text" name="Login" required>
 
-<input
+                <label>
 
-type="text"
+                    Senha
 
-name="Login"
+                </label>
 
-required
+                <input type="password" name="Senha" required>
 
->
+                <button>
 
-<label>
+                    Entrar
 
-Senha
+                </button>
 
-</label>
+            </form>
 
-<input
+            <p>
 
-type="password"
+                <a href="/auth/cadastro">
 
-name="Senha"
+                    Criar conta
 
-required
+                </a>
 
->
+            </p>
 
-<button>
+        </div>
+    </div>
+</body>
 
-Entrar
-
-</button>
-
-</form>
-
-<p>
-
-<a href="/auth/cadastro">
-
-Criar conta
-
-</a>
-
-</p>
-
-</div>
+</html>
