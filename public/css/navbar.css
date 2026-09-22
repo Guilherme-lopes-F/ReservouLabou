@@ -1,55 +1,38 @@
-.navbar{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    background:#0f172a;
-
-    color:white;
-
-    padding:15px 40px;
-
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3281b1;; /* Azul azul-piscina igual ao da imagem */
+    color: white;
+    padding: 15px 40px;
 }
 
-.logo{
-
-    font-size:24px;
-
-    font-weight:bold;
-
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Caso queira só branco, ou altere a cor aqui */
 }
 
-.navbar ul{
-
-    list-style:none;
-
-    display:flex;
-
-    gap:20px;
-
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.navbar li{
-
-    display:flex;
-
+.navbar li {
+    display: flex;
 }
 
-.navbar a{
-
-    color:white;
-
-    font-weight:bold;
-
-    transition:.3s;
-
+.navbar a {
+    color: #ffffff; /* Cor preta/escura para os links como na imagem */
+    font-weight: 500;
+    transition: .3s;
+    text-decoration: none;
 }
 
-.navbar a:hover{
-
-    color:#38bdf8;
-
+.navbar a:hover {
+    color: #38b6ff; /* Fica branco ao passar o mouse */
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    transition: 0.4s;
 }
